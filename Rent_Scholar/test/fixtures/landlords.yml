@@ -1,0 +1,14 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  email: landlordOne@rentscholar.com
+  password_hash: nil
+  password_salt: nil
+  confirmed: false
+
+two:
+  email: landlordTwo@rentscholar.com
+  password_hash: MyString
+  password_salt: MyString
+  confirmed: true
+

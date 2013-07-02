@@ -1,0 +1,27 @@
+doctype html
+/[if lt IE 7]
+  |<html class='no-js lt-ie9 lt-ie8 lt-ie7'>
+/[if IE 7]
+  |<html class='no-js lt-ie9 lt-ie8'>
+/[if IE 8]
+  |<html class='no-js lt-ie9'>
+/![if gt IE 8]><!
+html.no-js
+  /!<![endif]
+
+  = render 'head'
+
+  body
+    
+    = render 'chromeframe'
+   
+    = render 'header'
+
+    = render 'flashes'
+
+    = yield
+
+    = render 'footer'
+
+    / Javascript at the bottom for fast page loading
+    = render 'javascripts'

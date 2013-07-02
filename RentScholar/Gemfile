@@ -1,0 +1,67 @@
+source 'https://rubygems.org'
+
+gem 'rails', '3.2.13'
+
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+gem 'sqlite3'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+end
+
+group :test do
+  gem 'faker'
+  gem 'capybara'
+  gem 'guard-rspec'
+  gem 'launchy'
+end
+
+# Gems used only for assets and not required
+# in production environments by default.
+group :assets do
+  gem 'sass-rails'
+  gem 'coffee-rails'
+
+  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  # gem 'therubyracer', :platforms => :ruby
+
+  gem 'uglifier'
+  gem 'compass-rails'
+  gem 'compass-h5bp'
+end
+
+group :production do
+  gem 'pg'
+end
+
+gem "therubyracer"
+
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+
+gem "twitter-bootstrap-rails"
+
+gem 'jquery-rails'
+
+gem 'html5-rails'
+
+gem 'slim-rails'
+
+gem 'devise'
+
+# To use ActiveModel has_secure_password
+gem 'bcrypt-ruby'
+
+# To use Jbuilder templates for JSON
+# gem 'jbuilder'
+
+# Use unicorn as the app server
+# gem 'unicorn'
+
+# Deploy with Capistrano
+# gem 'capistrano'
+
+# To use debugger
+# gem 'debugger'

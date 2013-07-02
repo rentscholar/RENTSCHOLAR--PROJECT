@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: 1 Bedroom Apartment
+  description: Lorem ipsum teina apocmw naisi lasd ajnweci jsdjnas
+  address: 15 Telfer Court Paris ON Canada
+  price: 400.00
+  rooms: 1
+  landlord: one
+
+two:
+  title: 2 Bedroom House
+  description: Lorem ipsum teina apocmw naisi lasd ajnweci jsdjnas
+  address: 1055 Gordon Street Guelph ON Canada
+  price: 525.00
+  rooms: 2
+  landlord: two
